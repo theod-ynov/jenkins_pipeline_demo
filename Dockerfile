@@ -1,4 +1,4 @@
-FROM debian:9
+FROM debian
 
 RUN apt update -y \
    && apt install curl gnupg -y \
